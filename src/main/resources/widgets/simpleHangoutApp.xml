@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+
+	<ModulePrefs title="Hangout Starter">
+		<Require feature="rpc" />
+		<Require feature="views" />
+		<Require feature="locked-domain" />
+	</ModulePrefs>
+	<Content type="html"><![CDATA[     
+
+<html>
+  <body>
+
+    <script src="//plus.google.com/hangouts/_/api/v1/hangout.js"></script>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="https://localhost:8080/simpleHangoutApp.js"></script>
+    
+    <h3>Sample using API hangout</h3>
+  
+    <input class="button" 
+            type="button" 
+            value="Show participants!" 
+            id="showParticipants"
+            onClick="showParticipants()"/>
+
+    <div id="participantsDiv"></div>
+
+    <script>
+
+    </script>
+
+</body>
+]]>
+</Content>
+</Module>
+
